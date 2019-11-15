@@ -217,7 +217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288170957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -2.1, z: 0}
+  m_LocalPosition: {x: -6.98, y: -0.94, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -259,7 +259,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &288170963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,10 +272,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2840fe8aec12f5946809d4ec6af09301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 33
-  jump: 10
+  speed: 11.6
+  jump: 295
   isGround: 0
   name: slagmale
+  r2d: {fileID: 288170962}
+  ani: {fileID: 288170958}
 --- !u!1 &1022157174
 GameObject:
   m_ObjectHideFlags: 0
